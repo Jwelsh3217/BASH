@@ -1,17 +1,22 @@
 #!/bin/bash
-option1(){
+
+option1() {
 echo "option1 test"
-main}
-option2(){
+main
+}
+option2() {
 echo "option2 test"
-main}
-option3(){
+main
+}
+option3() {
 echo "option3 test"
-main}
-Quit(){
+main
+}
+Quit() {
 echo "User request exit"
 exit
-main}
+}
+
 
 main() {
         echo "1) select option 1"
@@ -45,3 +50,5 @@ main() {
         esac
 }
 
+main
+exit
