@@ -81,6 +81,7 @@ for i in {1..254} do;
 }
 }
 main
+exit
 echo '+-+-+-+-+-+-+-+-+-+-+-+-+'
 main
 }
